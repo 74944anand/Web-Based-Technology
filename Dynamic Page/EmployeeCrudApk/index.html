@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>
+          <p>Employee Management</p>
+        </th>
+      </tr>
+      <tr>
+        <td>Id: <input type="number" name="Id" id="Id" /></td>
+      </tr>
+      <tr>
+        <td>Name: <input type="text" name="Name" id="Name" /></td>
+      </tr>
+      <tr>
+        <td>Salary: <input type="number" name="Sal" id="Sal" /></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" onclick="addEmp()">Add Employee</button>
+        </td>
+        <td>
+          <button type="button" onclick="deleteEmp()">Delete Employee</button>
+        </td>
+        <td>
+          <button type="button" onclick="updateEmp()">Update Employee</button>
+        </td>
+      </tr>
+    </table>
+
+    <div id="data"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
